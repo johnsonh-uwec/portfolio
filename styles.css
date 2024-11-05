@@ -1,0 +1,73 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #e5dfff;
+}
+header{
+    background-color: #7072b5;
+    color: #ffffff;
+    text-align: center;
+}
+header>nav>a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    border: 1px solid transparent;
+}
+header>nav{
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 600;
+}
+header>img{
+    max-width: 10rem;
+    padding: 5%;
+    align-content: center;
+}
+.about{
+    margin: 2rem;
+    background-color: #9290c6;
+    color: #ffffff;
+    padding: 2rem;
+}
+.gallery{
+    margin: 2rem;
+    background-color: #9290c6;
+    color: #ffffff;
+    padding: 1rem;
+}
+.gallery>img{
+    display: block;
+        margin: 1rem auto;
+    width: 90%;
+    padding-bottom: 1.5rem;
+}
+.gallery>iframe{
+    display: block;
+        margin: 1rem auto;
+    width: 90%;
+    padding-bottom: 1.5rem;
+}
+.contact{
+    background-color: #7072b5;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+@media (min-width:1000px){
+    header>img{
+        max-width: 10rem;
+        display: flex;
+        align-items: baseline;
+        justify-content:left;
+    }
+    header>nav{
+        text-align: right;
+        padding: 2rem;
+    }
+    .gallery{
+        justify-content: space-between;
+    }
+}
