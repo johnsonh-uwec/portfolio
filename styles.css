@@ -60,14 +60,24 @@ header>img{
     header>img{
         max-width: 10rem;
         display: flex;
-        align-items: baseline;
+        align-items: flex-end;
         justify-content:left;
     }
     header>nav{
         text-align: right;
-        padding: 2rem;
+        padding: 1rem;
     }
     .gallery{
-        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .gallery>img, iframe{
+        max-width: 30%;
+    }
+    .gallery>h2{
+        flex-basis: 100%;
     }
 }
